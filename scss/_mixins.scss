@@ -1,0 +1,15 @@
+@mixin size($width: 100vw, $height: $width) {
+    width: $width;
+    height: $height;
+}
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+    @keyframes #{$name} {
+        @content;
+    }
+}

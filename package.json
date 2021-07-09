@@ -1,0 +1,10 @@
+{
+  "name": "Natours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.35.2",
+    "vite": "^2.4.1"
+  }
+}
