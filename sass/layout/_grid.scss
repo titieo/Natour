@@ -1,9 +1,6 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
-    color: #fff;
     margin: 0 auto;
-    text-align: center;
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
         // Everything except :last-child
@@ -12,7 +9,6 @@
     @include clearfix;
 
     [class^='col'] {
-        background-color: tomato;
         float: left;
 
         &:not(:last-child) {
