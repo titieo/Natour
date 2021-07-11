@@ -12,7 +12,7 @@
             rgba($color-primary-light, 0.8),
             rgba($color-primary-dark, 0.8)
         ),
-        url(../img/nat-4.jpg);
+        url(/nat-4.jpg);
     transform: skewY(-7deg);
     margin-top: -10rem;
     & > * {
@@ -24,5 +24,10 @@
 .section-tours {
     margin-top: -10rem;
     background-color: $color-grey-light-1;
-    padding: 25rem 0 50rem;
+    padding: 25rem 0 15rem;
+}
+
+.section-stories {
+    padding: 15rem 0;
+    background-color: $color-grey-light-1;
 }

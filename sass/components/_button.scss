@@ -37,12 +37,22 @@
     &--white {
         color: $color-grey-dark;
         background-color: $color-white;
-        &:hover {
-            color: $color-grey-dark;
+        // &:hover {
+        //     color: $color-grey-dark;
+        // }
+        &::after {
+            background-color: $color-white;
         }
     }
-    &--white::after {
-        background-color: $color-white;
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+        // &:hover {
+        //     color: $color-grey-dark;
+        // }
+        &::after {
+            background-color: $color-primary;
+        }
     }
     &--animated {
         animation: moveInBottom 0.5s ease-out 0.75s;

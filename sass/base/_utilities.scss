@@ -12,3 +12,17 @@
         margin-bottom: 4rem;
     }
 }
+.u-margin-top {
+    &-big {
+        margin-top: 8rem;
+    }
+    &-huge {
+        margin-top: 10rem;
+    }
+    &-small {
+        margin-top: 1.5rem;
+    }
+    &-medium {
+        margin-top: 4rem;
+    }
+}
