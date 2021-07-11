@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import 'vendors/reseter';
+// @import 'vendors/reseter';
 
 @import 'abstracts/variables';
 @import 'abstracts/functions';
@@ -10,8 +10,10 @@
 @import 'base/typography';
 @import 'base/utilities';
 
+@import 'components/card';
 @import 'components/button';
 @import 'components/composition';
+@import 'components/feature-box';
 
 @import 'layout/grid';
 @import 'layout/header';
