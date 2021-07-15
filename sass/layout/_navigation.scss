@@ -15,10 +15,12 @@
         box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
         text-align: center;
         cursor: pointer;
+
         @include respond(tab-port) {
             top: 4rem;
             right: 4rem;
         }
+
         @include respond(phone) {
             top: 3rem;
             right: 3rem;
@@ -43,11 +45,11 @@
             top: 4.5rem;
             right: 4.5rem;
         }
+
         @include respond(phone) {
             top: 3.5rem;
             right: 3.5rem;
         }
-        //transform: scale(80);
     }
 
     &__nav {
@@ -79,7 +81,7 @@
     &__link {
         &:link,
         &:visited {
-            display: inline-block;
+            // display: inline-block;
             font-size: 3rem;
             font-weight: 300;
             padding: 1rem 2rem;
@@ -94,6 +96,9 @@
             );
             background-size: 220%;
             transition: all 0.4s;
+
+            display: none;
+            // TODO:Fix this issue
 
             span {
                 margin-right: 1.5rem;
@@ -119,6 +124,13 @@
         width: 100%;
     }
 
+    // TODO: Fix the nav-link being seen on the page
+    &__checkbox:checked ~ &__nav &__list &__item &__link {
+        &:link,
+        &:visited {
+            display: inline-block;
+        }
+    }
     //ICON
     &__icon {
         position: relative;
